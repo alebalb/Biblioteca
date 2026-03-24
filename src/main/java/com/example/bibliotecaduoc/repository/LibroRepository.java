@@ -8,10 +8,10 @@ import java.util.Comparator;
 import java.util.List;
 
 @Repository
-public class LibroReposiroty {
+public class LibroRepository {
     private List<LibroModel> listaLibros = new ArrayList<>();
 
-    public LibroReposiroty() {
+    public LibroRepository() {
         listaLibros.add(new LibroModel(1, "9789569646638", "Fuego y Sangre", "Penguin Random House Grupo Editorial", 2018, "George R. R. Martin"));
         listaLibros.add(new LibroModel(2, "9789563494150", "Quique Hache: El Mall Embrujado y Otras Historias", "Sm Ediciones", 2014, "Sergio Gomez"));
         listaLibros.add(new LibroModel(3, "9781484256251", "Spring Boot Persistence Best Practices", "Apress", 2020, "Anghel Leonard"));
